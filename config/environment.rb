@@ -311,7 +311,7 @@ class MusicLibraryController
       array.each do |song|
         puts "#{num}. #{song.artist.name} - #{song.name}"
         num += 1
-        #binding.pry
+        binding.pry
       end
     end
   end
