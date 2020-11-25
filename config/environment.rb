@@ -294,7 +294,7 @@ class MusicLibraryController
       #binding.pry
       array.each.with_index(1) do |song, i|
       puts "#{i}. #{song.name} - #{song.genre.name}"
-      #binding.pry
+      #binding.pry #this binding doesn't even register
       end
     end
   end
