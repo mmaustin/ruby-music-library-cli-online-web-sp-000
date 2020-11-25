@@ -106,7 +106,7 @@ class Artist
     @@all
   end
 
-=begin def add_song(song)
+  def add_song(song)
     if song.artist == nil
       song.artist = self
       if !self.songs.include?(song)
@@ -114,7 +114,7 @@ class Artist
       end
     end
   end
-=end
+
 
   def self.create(artist_x)
     created_artist = self.new(artist_x)
