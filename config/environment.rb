@@ -266,7 +266,7 @@ class MusicLibraryController
     end
   end
 
-=begin
+
   def list_songs_by_artist
     input = " "
     puts "Please enter the name of an artist:"
@@ -277,7 +277,7 @@ class MusicLibraryController
     end 
     end
   end
-=end
+
 
 
 # Above is code from one of the instructors that does not work for me for whatever the hell reason!
