@@ -350,4 +350,4 @@ end
 
 
 m_c = MusicLibraryController.new("./spec/fixtures/mp3s")
-m_c.list_songs_by_artist
+m_c.list_songs_by_genre
