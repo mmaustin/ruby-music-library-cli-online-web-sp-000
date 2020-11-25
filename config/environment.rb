@@ -3,7 +3,7 @@ Bundler.require
 require "pry"
 
 module Concerns
-end
+#end
 
 require_all 'lib'
 
@@ -346,7 +346,7 @@ class MusicLibraryController
 
 end
 
-
+end
 
 #m_c = MusicLibraryController.new("./spec/fixtures/mp3s")
 #m_c.play_song
