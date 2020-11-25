@@ -180,7 +180,7 @@ class Genre
        #binding.pry
     end
     array.uniq
-    #binding.pry
+    binding.pry
   end
 
 end
