@@ -294,7 +294,7 @@ class MusicLibraryController
       #binding.pry
       array.each.with_index(1) do |song, i|
       puts "#{i}. #{song.name} - #{song.genre.name}"
-      #binding.pry
+      binding.pry
       end
     end
   end
@@ -311,7 +311,7 @@ class MusicLibraryController
       array.each do |song|
         puts "#{num}. #{song.artist.name} - #{song.name}"
         num += 1
-        binding.pry
+        #binding.pry
       end
     end
   end
@@ -350,4 +350,4 @@ end
 
 
 m_c = MusicLibraryController.new("./spec/fixtures/mp3s")
-m_c.list_songs_by_genre
+m_c.list_songs_by_artist
