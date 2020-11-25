@@ -289,7 +289,7 @@ class MusicLibraryController
 
 # Above is code from one of the instructors that does not work for me for whatever the hell reason!
 # Below is my code that doesn't work, becasue the artist isn't being pushed inot the array.
-=begin
+
   def list_songs_by_artist
     input = " "
     puts "Please enter the name of an artist:"
@@ -303,7 +303,7 @@ class MusicLibraryController
       end
     end
   end
-=end
+
 
 
   def list_songs_by_genre
