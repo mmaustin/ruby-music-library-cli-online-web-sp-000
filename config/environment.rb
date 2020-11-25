@@ -124,6 +124,13 @@ class Artist
   end
 
 #self, self.songs are empty for some reason. there's nothing to be mapped???
+def genres
+  genres = @songs.collect do |song|
+    song.genre
+  end
+  genres.uniq
+end
+=begin
   def genres
     array = []
     self.songs.map do |song|
@@ -134,7 +141,7 @@ class Artist
     array.uniq
     #binding.pry
   end
-
+=end
 end
 
 
@@ -266,7 +273,7 @@ class MusicLibraryController
     end
   end
 
-
+=begin
   def list_songs_by_artist
     input = " "
     puts "Please enter the name of an artist:"
@@ -277,7 +284,7 @@ class MusicLibraryController
       end 
     end
   end
-
+=end
 
 
 # Above is code from one of the instructors that does not work for me for whatever the hell reason!
