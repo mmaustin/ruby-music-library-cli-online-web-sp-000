@@ -178,7 +178,7 @@ class Genre
     self.songs.map do |song|
       #binding.pry
       array << song.artist
-       #binding.pry
+       binding.pry
     end
     array.uniq
     #binding.pry
