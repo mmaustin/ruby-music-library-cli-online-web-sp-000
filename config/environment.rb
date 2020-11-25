@@ -124,13 +124,7 @@ class Artist
   end
 
 #self, self.songs are empty for some reason. there's nothing to be mapped???
-def genres
-  genres = @songs.collect do |song|
-    song.genre
-  end
-  genres.uniq
-end
-=begin
+
   def genres
     array = []
     self.songs.map do |song|
@@ -141,7 +135,7 @@ end
     array.uniq
     #binding.pry
   end
-=end
+
 end
 
 
