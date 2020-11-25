@@ -133,7 +133,7 @@ class Artist
        #binding.pry
     end
     array.uniq
-    #binding.pry
+    binding.pry
   end
 
 end
